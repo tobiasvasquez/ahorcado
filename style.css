@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    background-color: #EEE6D9;
+}
+
+h1, h3, h4{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.container{
+    max-width: 1248px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.abecedario{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.abecedario > button{
+    width: 80px;
+    height: 80px;
+    background-color: #A3D4D3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+.mostrarLetras{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.mostrarLetras > span {
+    font-size: 3em;
+}
+
+.abecedario .error{
+    background-color: #D6542C;
+    cursor: not-allowed;
+    color: white;
+}
+
+.abecedario .acierto{
+    background-color: #339A5C;
+    cursor: not-allowed;
+    color: white;
+}
+
+#reiniciarJuego{
+    background-color: #3BA0B0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}

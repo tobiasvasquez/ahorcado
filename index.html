@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500">
+</head>
+
+<body>
+    <h1> Ahorcado </h1>
+    <div class="container">
+        <div style="display: none;">
+            <h2> Dificultad</h2>
+            <button> Facil </button>
+            <button> Normal </button>
+            <button> Dificil </button>
+        </div>
+        <div class="mostrarLetras"></div>
+        <div class="abecedario">
+            <button value="a">A</button>
+            <button value="b">B</button>
+            <button value="c">C</button>
+            <button value="d">D</button>
+            <button value="e">E</button>
+            <button value="f">F</button>
+            <button value="g">G</button>
+            <button value="h">H</button>
+            <button value="i">I</button>
+            <button value="j">J</button>
+            <button value="k">K</button>
+            <button value="l">L</button>
+            <button value="m">M</button>
+            <button value="n">N</button>
+            <button value="o">O</button>
+            <button value="p">P</button>
+            <button value="q">Q</button>
+            <button value="r">R</button>
+            <button value="s">S</button>
+            <button value="t">T</button>
+            <button value="u">U</button>
+            <button value="v">V</button>
+            <button value="w">W</button>
+            <button value="x">X</button>
+            <button value="y">Y</button>
+            <button value="z">Z</button>
+        </div>
+        <div class="result">
+            <span>Errores: <span id="errores"></span> </span>
+            <h4 id="mensaje"></h4>
+            <button id="reiniciarJuego" style="display: none;"> Reiniciar? </button>
+        </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+
+</html>
